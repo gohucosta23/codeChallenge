@@ -13,19 +13,19 @@ export function populatePayeeInfo(index) {
                 <tbody>
                     <tr class = "tableRow">
                         <td class = "infoTitle" scope="row">Address :</th>
-                        <td class ="info">${data[index].Payee.Address.Address1}</th>
+                        <td class ="info border-right">${data[index].Payee.Address.Address1}</th>
                         <td class = "infoTitle" scope="row">City, State, Zipcode :</th>
                         <td class ="info">${data[index].Payee.Address.City}, ${data[index].Payee.Address.StateOrProvince} ${data[index].Payee.Address.PostalCode} ${data[index].Payee.Address.Country}</th>
                     </tr>
                     <tr class = "tableRow">
                         <td class = "infoTitle" scope="row">Phone :</th>
-                        <td class ="info">${data[index].Payee.Phone}</th>
+                        <td class ="info border-right">${data[index].Payee.Phone}</th>
                         <td class = "infoTitle" scope="row">Fax :</th>
                         <td class ="info">${data[index].Payee.Fax}</th>
                     </tr>
                     <tr>
                         <td class = "infoTitle" scope="row">Attention :</th>
-                        <td class ="info">${data[index].Payee.Attention}</th>
+                        <td class ="info border-right">${data[index].Payee.Attention}</th>
                         <td class = "infoTitle" scope="row">Submission Date :</th>
                         <td class ="info">${data[index].Payee.SubmissionDate}</th>
                     </tr>
