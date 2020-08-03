@@ -1,0 +1,29 @@
+.btn {
+    width : 200px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+}
+.infoTitle {
+    font-weight: bold;
+}
+.title {
+    padding : 30px;
+    background-color: #d9d9d9;
+}
+.tableRow {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.info {
+    text-align: right;
+}
+
+.remittanceInfo {
+    width: 490px;
+    text-align: right;
+}
+
+.card {
+    padding : 10px
+}
