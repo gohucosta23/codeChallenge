@@ -44,9 +44,9 @@ export function populatePaymentInfo(index) {
     const paymentInfo = $(`
 
       <div class="card">
-      <h4 class="card-title text-center title">Payment Information</h4>
+      <h4 class="card-title text-center title">PAYMENT INFORMATION</h4>
         <table class="table table-borderless ">
-            <tbody">
+            <tbody>
                 <tr class = "tableRow">
                     <td class = "infoTitle" scope="row">PAN :</th>
                     <td class ="info">${data[index].Payment.PAN}</th>
@@ -81,7 +81,7 @@ export function populateRemittanceInfo(index) {
             <div class="col-6 mb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title text-center title">${data[index].Remittance[i].PayorName} (PAYOR NAME)</h4>
+                        <h4 class="card-title text-center title">${data[index].Remittance[i].PayorName.toUpperCase()} (PAYOR)</h4>
                         <table class="table table-borderless ">
                             <tbody">
                                 <tr class = "tableRow">
