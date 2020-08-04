@@ -6,6 +6,8 @@ let index = 0;
 
 function buttonDisable() {
 
+    $(".amountOfPages").text(data.length);
+    
     if(index === 0) {
         $("#previousBtn").hide();
     }
